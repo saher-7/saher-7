@@ -3,13 +3,13 @@
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║      M U B E E N   S A H A R                                 ║
-║      AI Safety Engineer · Builder · Final Year SE            ║
+║      S A H E R                                               ║
+║      AI/ML · Builder · Final Year SE                         ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=800&color=C9A84C&center=true&vCenter=true&width=600&lines=AI+Safety+%26+Responsible+AI+Systems;Real-time+NLP+%26+Transformer+Pipelines;Developer+Infrastructure+%26+Tooling;Shipping+things+that+actually+matter.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=800&color=C9A84C&center=true&vCenter=true&width=600&lines=AI+Safety+%26+NLP+Systems;Civic+Tech+%26+Developer+Tooling;Frappe+%2F+ERPNext+Architecture;Shipping+things+that+actually+matter.)](https://git.io/typing-svg)
 
 </div>
 
@@ -18,26 +18,27 @@
 ## `whoami`
 
 ```python
-mubeen = {
-    "role"        : "AI Safety Engineer & Final Year Software Engineering Student",
-    "location"    : "Pakistan · Open to Remote",
+saher = {
+    "role"        : "Final Year Software Engineering Student → AI/ML (Germany, Oct 2026)",
+    "location"    : "Lahore, Pakistan · Open to Remote",
     "graduating"  : "June 2026",
-    "focus"       : ["AI Safety", "Responsible AI", "Real-time NLP Systems", "Dev Tooling"],
-    "shipped"     : "TruthLens — Chrome extension running DeBERTa-v3 NLI on ChatGPT, Claude & Gemini",
-    "building"    : "Systems that make AI safer, more honest, and harder to abuse",
-    "contact"     : "mubeensahar07@gmail.com",
+    "focus"       : ["AI Safety", "Real-time NLP", "Civic Tech", "ERP Infrastructure"],
+    "flagship"    : "TruthLens — real-time AI integrity layer running on ChatGPT, Claude & Gemini",
+    "also"        : ["PaperTrail — civic gap analysis, live in Lahore",
+                     "CodeDissect — VS Code extension for AI-powered code review",
+                     "Frappe/ERPNext — white-label multi-tenant SaaS architecture"],
 }
 ```
 
-> *I don't build projects to fill a resume. I build the safety infrastructure that AI deployment desperately needs.*
+> *I build things that solve real problems — AI safety infrastructure, civic transparency tools, and developer tooling that ships.*
 
 ---
 
-## 🛡️ Featured — TruthLens *(Final Year Project)*
+## 🛡️ TruthLens *(Final Year Project — Private until June 2026)*
 
-> **Real-time AI Integrity Chrome Extension** — running live on ChatGPT, Claude & Gemini
+> **Real-time AI Integrity Chrome Extension** — live on ChatGPT, Claude & Gemini
 
-A production-grade, three-signal AI safety layer that intercepts every LLM response and runs adversarial analysis in real time — directly inside the chat UI.
+A three-signal AI safety layer that intercepts every LLM response and runs adversarial analysis in real time — directly inside the chat UI.
 
 ```
 Input: LLM Response (streaming)
@@ -53,7 +54,7 @@ Input: LLM Response (streaming)
 │  Phase 2 — NLI Upgrade (async)                      │
 │  · DeBERTa-v3 cross-encoder NLI (hallucination)     │
 │  · BART-large zero-shot classification              │
-│    (manipulation + bias with condensed assertions)  │
+│    (manipulation + bias, condensed assertions)      │
 │  · Rule-based secondary interpretability layer      │
 └──────────────────────┬──────────────────────────────┘
                        ↓
@@ -63,24 +64,64 @@ Output: { hallucination: 94%, manipulation: 12%, bias: 8% }
 
 **Stack:** `DeBERTa-v3` `BART-large-MNLI` `Zero-shot Classification` `NLI` `Chrome Extension API` `JavaScript` `HuggingFace Inference API` `Wikipedia API`
 
-**What makes it different:** Most hallucination detectors are offline eval tools. TruthLens is a live, in-browser safety layer. No backend. No latency penalty. Zero setup for the user. Just install and it runs on every AI response automatically.
-
-> 🔒 Private until university submission — going public June 2025
+**What makes it different:** Most hallucination detectors are offline eval tools. TruthLens is a live, in-browser safety layer. No backend. No latency penalty. Zero setup. Just install and it runs on every AI response automatically.
 
 ---
 
-## 🚀 What I'm Building Next
+## 🗺️ PaperTrail *(Live — [papertraill.netlify.app](https://papertraill.netlify.app))*
 
-Projects in active development — each solving a real, hard problem:
+> **Civic Transparency Tool** — exposing the gap between official claims and documented reality
 
-| # | Project | What it does | Status |
-|---|---------|-------------|--------|
-| 🔴 | **LLM Red-Teaming Framework** | Automated attacker-judge pipeline for AI vulnerability testing | Building |
-| 🟡 | **StreamSentinel** | Token-by-token safety monitoring for enterprise LLM deployment | Planned |
-| 🟡 | **Semantic CI/CD Guard** | GitHub Action using code embeddings to catch silent behavioural regressions | Planned |
-| 🟡 | **PromptDNA** | Semantic fingerprinting to detect stolen/extracted system prompts | Planned |
-| 🟡 | **FactStream** | Kafka-based real-time claim verification pipeline | Planned |
-| 🟡 | **ObservabilityAI** | Open-source SDK for LLM call tracing and production debugging | Planned |
+Compares official government/institutional data against scraped public discourse for 6 Lahore institutions, producing a **Reality Gap Score (1–9 scale)** per institution.
+
+```
+Data Sources: Reddit scraper (live) · Official institution pages
+Pipeline:     Parallel fetch → Gap scoring → Supabase → Upstash Redis cache
+Frontend:     Vite / React → Netlify
+Backend:      FastAPI → HuggingFace Spaces (Docker)
+```
+
+**Stack:** `FastAPI` `React` `Vite` `Supabase` `Upstash Redis` `Netlify` `HuggingFace Spaces`
+
+**Roadmap:** Lahore pilot → Pakistan-wide → Global
+
+---
+
+## 🔍 CodeDissect *(VS Code Extension)*
+
+> **AI-Powered Code Review** — severity-tiered analysis inside your editor
+
+Runs LLM-backed code review directly in VS Code with gutter decorations, hover diagnostics, and git diff mode.
+
+```
+Review Output:
+  · Severity tiers     — Critical / Architectural / Performance / Style
+  · Ghost's Take       — architectural cost/benefit analysis
+  · Review Quality     — Poor / Average / Good / Great / Excellent
+  · Git diff mode      — reviews only what changed
+  · Session history    — exportable markdown reports
+```
+
+**Stack:** `TypeScript` `VS Code Extension API` `FastAPI` `HuggingFace Inference API`
+
+---
+
+## ⚙️ Frappe / ERPNext — White-Label SaaS Architecture *(Active)*
+
+> **Multi-tenant ERP platform** built on Frappe v16 + ERPNext
+
+Architecting a white-label SaaS ERP with full multi-tenancy, custom middleware, and a zero-fork customisation policy.
+
+```
+Key decisions:
+  · Multi-tenancy      — separate PostgreSQL schema per tenant
+  · Middleware         — custom Frappe app as API gateway layer
+  · Cache / Events     — Redis as both cache and Event Bus
+  · White-labelling    — template shadowing, zero upstream forks
+  · Team structure     — 4 intern squads: infra, DB, branding/gateway, testing
+```
+
+**Stack:** `Frappe v16` `ERPNext` `PostgreSQL` `Redis` `Docker`
 
 ---
 
@@ -92,22 +133,22 @@ Projects in active development — each solving a real, hard problem:
 ![PyTorch](https://img.shields.io/badge/PyTorch-C9A84C?style=flat-square&logo=pytorch&logoColor=black)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-C9A84C?style=flat-square&logo=huggingface&logoColor=black)
 ![Transformers](https://img.shields.io/badge/Transformers-C9A84C?style=flat-square&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-C9A84C?style=flat-square&logoColor=black)
 
 **Systems & Backend**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-7A9E8B?style=flat-square&logo=fastapi&logoColor=black)
-![WebSockets](https://img.shields.io/badge/WebSockets-7A9E8B?style=flat-square&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-7A9E8B?style=flat-square&logo=docker&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-7A9E8B?style=flat-square&logo=redis&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-7A9E8B?style=flat-square&logo=postgresql&logoColor=black)
+![Frappe](https://img.shields.io/badge/Frappe-7A9E8B?style=flat-square&logoColor=black)
 
-**Dev & Infrastructure**
+**Frontend & Dev**
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-5B8DD9?style=flat-square&logo=githubactions&logoColor=black)
-![Linux](https://img.shields.io/badge/Linux-5B8DD9?style=flat-square&logo=linux&logoColor=black)
-![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-5B8DD9?style=flat-square&logo=googlechrome&logoColor=black)
+![React](https://img.shields.io/badge/React-5B8DD9?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5B8DD9?style=flat-square&logo=typescript&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-5B8DD9?style=flat-square&logo=javascript&logoColor=black)
+![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-5B8DD9?style=flat-square&logo=googlechrome&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-5B8DD9?style=flat-square&logo=linux&logoColor=black)
 
 ---
 
@@ -124,17 +165,10 @@ Projects in active development — each solving a real, hard problem:
 
 ## 📬 Let's Talk
 
-I'm actively looking for **full-time roles, internships, and collaborations** in:
-- AI Safety & Responsible AI
-- Developer Tooling & Infrastructure  
-- Real-time NLP Systems
-
-If you're building something ambitious in these spaces — reach out.
-
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-mubeensahar07@gmail.com-C9A84C?style=flat-square&logo=gmail&logoColor=white)](mailto:mubeensahar07@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mubeen_Sahar-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mubeensahar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saher-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mubeensahar)
 [![Portfolio](https://img.shields.io/badge/Portfolio-mubeensahar.dev-7A9E8B?style=flat-square&logo=safari&logoColor=white)](https://mubeensahar.dev)
 
 </div>
@@ -142,7 +176,5 @@ If you're building something ambitious in these spaces — reach out.
 ---
 
 <div align="center">
-<sub>
-Built with intention · Graduating June 2025 · Open to opportunities
-</sub>
+<sub>Graduating June 2026 · Targeting AI/ML MSc in Germany · Open to opportunities</sub>
 </div>
