@@ -17,7 +17,7 @@ BS Software Engineering, University of Sargodha · 2026
 
 ## About
 
-I build systems at the intersection of AI safety, civic transparency, and developer tooling. 3+ years of professional experience across NLP pipelines, ERP architecture, and full-stack development. Most recently led a team of interns building a white-label SaaS ERP platform on Frappe v16. Currently open to AI/ML and software engineering roles.
+I build systems at the intersection of AI safety, civic transparency, and developer tooling. 2+ years of professional experience across NLP pipelines, ERP architecture, and full-stack development. Most recently led a team of interns building a white-label SaaS ERP platform on Frappe v16. Currently open to AI/ML and software engineering roles.
 ---
 
 ## Projects
