@@ -4,8 +4,8 @@
 
 **Software Engineer · AI/NLP · Civic Tech · ERP Architecture**
 
-Final Year SE @ University of Sargodha · Graduating June 2026
-Targeting AI/ML MSc in Germany — October 2026
+BS Software Engineering, University of Sargodha · 2026
+
 
 [![Email](https://img.shields.io/badge/mubeensahar07@gmail.com-grey?style=flat-square&logo=gmail)](mailto:mubeensahar07@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mubeen-saher)
@@ -17,14 +17,13 @@ Targeting AI/ML MSc in Germany — October 2026
 
 ## About
 
-I build systems at the intersection of AI safety, civic transparency, and developer tooling. Close to three years of professional experience across NLP pipelines, ERP architecture, and full-stack development. Currently leading a team of interns building a white-label SaaS ERP platform on Frappe v16.
-
+I build systems at the intersection of AI safety, civic transparency, and developer tooling. 3+ years of professional experience across NLP pipelines, ERP architecture, and full-stack development. Most recently led a team of interns building a white-label SaaS ERP platform on Frappe v16. Currently open to AI/ML and software engineering roles.
 ---
 
 ## Projects
 
 ### TruthLens — AI Integrity Chrome Extension
-*Final Year Project · Submission-ready · Private until June 2026*
+*Final Year Project · Submission-ready · Private until final evaluation*
 
 Real-time AI safety layer that intercepts LLM responses on ChatGPT, Claude, and Gemini and runs three-signal adversarial analysis directly inside the chat UI.
 
